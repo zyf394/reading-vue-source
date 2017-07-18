@@ -1,13 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-  * [test.md](testmd.md)
 * build
 * src
   * core
     * global-api
-      * [index.md](indexmd.md)
-* [flow](flow.md)
+      * [index.md](src/core/global-api/index.md)
+* flow
 * test
 * types
 
