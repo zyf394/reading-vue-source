@@ -1,11 +1,28 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](SUMMARY.md)
 * build
 * src
   * core
     * global-api
-      * [index.md](src/core/global-api/index.md)
+      * [index.js](src/core/global-api/index.md)
+    * instance
+        * render-helpers
+          * [bind-object-props.js](src/core/instance/bind-object-props.md) 
+          * [check-keycodes.js](src/core/instance/check-keycodes.md)
+          * [render-list.js](src/core/instance/render-list.md)
+          * [render-slot.js](src/core/instance/render-slot.md) 
+          * [render-static.js](src/core/instance/render-static.md) 
+          * [render-filter.js](src/core/instance/render-filter.md) 
+          * [render-slots.js](src/core/instance/render-slots.md)  
+        * [events.js](src/core/instance/events.md)
+        * [index.js](src/core/instance/index.md)
+        * [init.js](src/core/instance/init.md)
+        * [inject.js](src/core/instance/inject.md)
+        * [lifecycle.js](src/core/instance/lifecycle.md)
+        * [proxy.js](src/core/instance/proxy.md)
+        * [render.js](src/core/instance/render.md)
+        * [state.js](src/core/instance/state.md)
 * flow
 * test
 * types

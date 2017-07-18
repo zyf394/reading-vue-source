@@ -1,3 +1,12 @@
+## 简述
+
+该文件暴露了 `initInjections` `resolveInject` 等方法，处理一些 `provide` 和 `inject`
+ 相关的操作。
+
+> 这对选项需要一起使用，以允许一个祖先组件向其所有子孙后代注入一个依赖。
+
+## 源码
+```javascript
 /* @flow */
 
 import { hasSymbol } from 'core/util/env'
@@ -72,3 +81,9 @@ export function resolveInject (inject: any, vm: Component): ?Object {
     return result
   }
 }
+
+```
+## 知识点
+### Reflect.ownKeys
+
+Reflect是es6提供操作对象的新API，ownKeys方法返回对象上的所有属性，包括Symbol属性。
